@@ -1,0 +1,20 @@
+site_name: test Documentation
+site_description: "Docs-as-code for the amtest24/test repository"
+site_author: "amtest24"
+repo_name: "amtest24/test"
+repo_url: "https://github.com/amtest24/test"
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true
+docs_dir: docs
+site_dir: site
+strict: true
